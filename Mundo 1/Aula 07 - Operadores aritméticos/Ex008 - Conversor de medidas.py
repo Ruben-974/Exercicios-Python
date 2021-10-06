@@ -1,0 +1,2 @@
+n = int(input('Uma distancia de em \033[1;34mmetros\033[0m: '))
+print('A medida de {}{}m{} corresponde a:\033[1;31m\n{}km\n{}hm\n{}dam\n{}dm\n{}cm\n{}mm\033[0m'.format(('\033[1;34m'), n, ('\033[0m'), (n/1000), (n/100), (n/10), (n*10), (n*100), (n*1000)))

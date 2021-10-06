@@ -1,0 +1,12 @@
+times = ('São Paulo', 'Internacional', 'Atlético-MG', 'Flamengo', 'Grêmio', 'Palmeiras', 'Fluminense', 'Santos', 'Ceará', 'Corinthians', 'Athletico-PR', 'Atlético-GO', 'Bragantino', 'Sport', 'Vasco', 'Fortaleza', 'Bahia', 'Goiás', 'Botafogo', 'Coritiba')
+print('+-' * 100)
+print('Lista de times do Brasileirão:', times)
+print('+-' * 100)
+print('Os 5 primeitos colocados são: ', times[:6])
+print('+-' * 100)
+print('Os ultimos 4 colocados são: ', times[-1:-5:-1])
+print('+-' * 100)
+print('A ordem alfabetica e: ', sorted(times))
+print('+-' * 100)
+print(f'O Fluminense está na {times.index("Fluminense")+1}ª posição')
+
